@@ -28,7 +28,19 @@ body{
     color:rgb(114, 71, 89)
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
 .bio-hero {
     flex-basis: 100%;
+    background-color: rgb(238, 230, 220);
 
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
